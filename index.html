@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+  body {
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  #main {
+    background-color:#FF7373;
+    width:50%;
+    margin:0 auto;
+    text-align:center;
+    padding:1%;
+    box-shadow:2px 2px 3px black;
+  }
+  input {
+    border-radius: 10px;
+    margin:2%;
+    height:40px;
+    font-size:150%;
+    text-align:center;
+    border: none;
+  }
+  .hidden {
+    display:none;
+  }
+
+  #display {
+    font-size:200%;
+    font-weight:bold;
+  }
+  .span {
+    color:blue;
+  }
+
+  h1 {background-color:#F7347A;
+  width:50%;
+margin:5% auto 0 auto;
+text-align:center;
+padding:1%;
+color:white;
+box-shadow:2px 2px 3px black;
+border-bottom: 2px white solid;}
+
+img {
+  width:50px;
+  height:40px;
+  border:1px black solid;
+}
+
+button {
+  background-color:#9932CC;
+  padding:1% 2%;
+  color:white;
+  border:2px solid white;
+  border-radius:5px;
+  box-shadow:2px 2px 3px black;
+}
+button:focus {
+ outline: none;
+}
+
+  </style>
+</head>
+<body>
+<h1>Scrambbled Words <img src="https://www.pngitem.com/pimgs/m/56-569239_games-dice-game-dice-indoor-games-and-dice.png" alt="scramble"></h1>
+<div id="main">
+<div id="display"></div>
+<input type="text" class="hidden"><br>
+<button>Start</button>
+</div>
+
+<script type="text/javascript" src="words.js">
+
+</script>
+</body>
+</html>
